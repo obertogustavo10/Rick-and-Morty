@@ -1,0 +1,41 @@
+
+.app {
+
+}
+
+.animation{
+  margin-top: 50px;
+}
+.img{
+  position: relative;
+  animation: animate 2s alternate infinite;
+}
+@keyframes animate {
+  from {
+    bottom: 0px;
+  }
+  to {
+    bottom: 60px;
+  }
+}
+.img1{
+  position: relative;
+  animation: animate1 2s alternate infinite;
+}
+@keyframes animate1 {
+  from {
+    bottom: 60px;
+  }
+  to {
+    bottom: 0px;
+  }
+}
+
+
+.button-history{
+  margin-top: 30px;
+
+}
+.botton-history{
+  height: 30px;  
+}
